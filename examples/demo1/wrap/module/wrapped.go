@@ -1,6 +1,6 @@
 package module
 
-import "github.com/consideritdone/polywrap-go/examples/demo1"
+import "github.com/polywrap/go-wrap/examples/demo1"
 
 func SampleMethodWrapped(argsBuf []byte, envSize uint32) []byte {
 	args := deserializeSampleMethodArgs(argsBuf)

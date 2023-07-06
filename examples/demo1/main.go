@@ -1,9 +1,9 @@
 package demo1
 
 import (
-	"github.com/consideritdone/polywrap-go/examples/demo1/wrap/moduleTypes"
-	"github.com/consideritdone/polywrap-go/examples/demo1/wrap/sampleResult"
-	"github.com/consideritdone/polywrap-go/polywrap/msgpack/big"
+	"github.com/polywrap/go-wrap/examples/demo1/wrap/moduleTypes"
+	"github.com/polywrap/go-wrap/examples/demo1/wrap/sampleResult"
+	"github.com/polywrap/go-wrap/polywrap/msgpack/big"
 )
 
 func SampleMethod(args *moduleTypes.ArgsSampleMethod) sampleResult.SampleResult {

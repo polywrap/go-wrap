@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/consideritdone/polywrap-go/polywrap/msgpack/big"
-	"github.com/consideritdone/polywrap-go/polywrap/msgpack/container"
+	"github.com/polywrap/go-wrap/polywrap/msgpack/big"
+	"github.com/polywrap/go-wrap/polywrap/msgpack/container"
 	"github.com/valyala/fastjson"
 )
 

@@ -1,6 +1,6 @@
 package sampleResult
 
-import "github.com/consideritdone/polywrap-go/polywrap/msgpack"
+import "github.com/polywrap/go-wrap/polywrap/msgpack"
 
 type SampleResult struct {
 	Value string

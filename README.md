@@ -4,4 +4,4 @@
 
 This repo contains Golang support implementation for [Polywrap](https://polywrap.io/) Wrappers.
 
-Example of using it you can find in [demo repo](https://github.com/ConsiderItDone/polywrap-go-demo).
+Example of using it you can find in [demo repo](https://github.com/polywrap/go-wrap-demo).

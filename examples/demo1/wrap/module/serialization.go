@@ -1,9 +1,9 @@
 package module
 
 import (
-	"github.com/consideritdone/polywrap-go/examples/demo1/wrap/moduleTypes"
-	"github.com/consideritdone/polywrap-go/examples/demo1/wrap/sampleResult"
-	"github.com/consideritdone/polywrap-go/polywrap/msgpack"
+	"github.com/polywrap/go-wrap/examples/demo1/wrap/moduleTypes"
+	"github.com/polywrap/go-wrap/examples/demo1/wrap/sampleResult"
+	"github.com/polywrap/go-wrap/polywrap/msgpack"
 )
 
 func deserializeSampleMethodArgs(argsBuf []byte) *moduleTypes.ArgsSampleMethod {

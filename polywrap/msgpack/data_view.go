@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/consideritdone/polywrap-go/polywrap/msgpack/format"
+	"github.com/polywrap/go-wrap/polywrap/msgpack/format"
 )
 
 type DataView struct {

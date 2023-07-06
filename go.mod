@@ -1,4 +1,4 @@
-module github.com/consideritdone/polywrap-go
+module github.com/polywrap/go-wrap
 
 go 1.17
 

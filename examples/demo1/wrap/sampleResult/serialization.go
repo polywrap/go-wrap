@@ -1,6 +1,6 @@
 package sampleResult
 
-import "github.com/consideritdone/polywrap-go/polywrap/msgpack"
+import "github.com/polywrap/go-wrap/polywrap/msgpack"
 
 func serializeSampleResult(args SampleResult) []byte {
 	context := msgpack.NewContext("Serializing (encoding) object-type: SampleResult")

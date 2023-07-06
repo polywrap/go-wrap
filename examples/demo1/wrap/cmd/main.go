@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/consideritdone/polywrap-go/examples/demo1/wrap/module"
-	"github.com/consideritdone/polywrap-go/polywrap"
+	"github.com/polywrap/go-wrap/examples/demo1/wrap/module"
+	"github.com/polywrap/go-wrap/polywrap"
 )
 
 //export _wrap_invoke
