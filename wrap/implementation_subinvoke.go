@@ -1,11 +1,9 @@
-package polywrap
+package wrap
 
 import (
 	"errors"
 	"unsafe"
 )
-
-// Implementation Subinvoke Interface
 
 //go:wasm-module wrap
 //export __wrap_subinvokeImplementation
