@@ -3,9 +3,9 @@ package msgpack
 import (
 	"math"
 
-	"github.com/polywrap/go-wrap/polywrap/msgpack/big"
-	"github.com/polywrap/go-wrap/polywrap/msgpack/container"
-	"github.com/polywrap/go-wrap/polywrap/msgpack/format"
+	"github.com/polywrap/go-wrap/msgpack/big"
+	"github.com/polywrap/go-wrap/msgpack/container"
+	"github.com/polywrap/go-wrap/msgpack/format"
 	"github.com/valyala/fastjson"
 )
 

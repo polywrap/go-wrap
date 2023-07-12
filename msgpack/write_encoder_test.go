@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polywrap/go-wrap/polywrap/msgpack/big"
-	"github.com/polywrap/go-wrap/polywrap/msgpack/container"
+	"github.com/polywrap/go-wrap/msgpack/big"
+	"github.com/polywrap/go-wrap/msgpack/container"
 	"github.com/valyala/fastjson"
 )
 

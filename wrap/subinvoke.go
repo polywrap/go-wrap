@@ -1,4 +1,4 @@
-package polywrap
+package wrap
 
 import (
 	"errors"
