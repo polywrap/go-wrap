@@ -1,7 +1,6 @@
 package wrap
 
 import (
-	"errors"
 	"unsafe"
 
 	"github.com/polywrap/go-wrap/msgpack"
