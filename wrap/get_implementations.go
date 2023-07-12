@@ -36,7 +36,7 @@ func WrapGetImplementations(uri string) []string {
 	// Deserialize the msgpack buffer,
 	// which contains an array of strings
 	ctx := msgpack.NewContext("Deserializing __wrap_getImplementations_result buffer")
-	reader := msgpack.NewReadDecoder(ctx resultBuf)
+	reader := msgpack.NewReadDecoder(ctx, resultBuf)
 
 	ln := reader.ReadArrayLength()
 	result := make([]string, ln)
